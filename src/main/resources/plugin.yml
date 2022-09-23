@@ -1,0 +1,13 @@
+name: NoughtsAndCrosses
+version: '${project.version}'
+main: me.origami_sensei.noughtsandcrosses.NoughtsAndCrosses
+api-version: 1.19
+authors: [ Origami_Sensei ]
+description: A plugin that allows a player to compete in EPIC games of noughts and crosses against other players
+commands:
+    nac:
+      description: Play a game of Noughts and Crosses against other players
+    nacaccept:
+      description: A command for the console to accept and start games
+    nachelp:
+      description: Displays a help message to inform the user on how to use this plugin
